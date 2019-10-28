@@ -30,15 +30,12 @@ width:500px;
 
 
 
-/* @media screen */
-table {
-	font-size: 100%;
-}
+
 /* @media screen */
 .wikitable {
 	background-color: #f8f9fa;
 	color: #222;
-	margin: 1em 0;
+	/* margin: 1em 0;  */
 	border: 1px solid #a2a9b1;
 	border-collapse: collapse;
 }
@@ -62,7 +59,7 @@ table {
 }
 /* @media screen */
 .mw-body, #mw-data-after-content {
-	margin-left: 10em;
+	/* margin-left: 10em;  */
 }
 /* @media screen */
 .mw-body {
