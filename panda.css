@@ -30,10 +30,11 @@ width:500px;
 
 
 
+/* @media screen */
 table {
 	font-size: 100%;
 }
-
+/* @media screen */
 .wikitable {
 	background-color: #f8f9fa;
 	color: #222;
@@ -41,44 +42,55 @@ table {
 	border: 1px solid #a2a9b1;
 	border-collapse: collapse;
 }
-
+/* @media screen */
 .mw-content-ltr {
 	direction: ltr;
 }
-
+/* @media screen */
 .mw-body-content {
 	position: relative;
 	font-size: 0.87em;
 	line-height: 1.6;
 	z-index: 0;
 }
-
+/* @media screen */
 .mw-body, .parsoid-body {
 	background-color: #ffffff;
 	color: #222222;
 	padding: 1em;
 	direction: ltr;
 }
-
+/* @media screen */
 .mw-body, #mw-data-after-content {
 	margin-left: 10em;
 }
-
+/* @media screen */
 .mw-body {
 	border: 1px solid #a7d7f9;
 	border-right-width: 0px;
 	margin-top: -1px;
 }
-
-
-
-
-
+/* @media screen */
+html {
+	font-size: 100%;
+}
+/* @media screen */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* @media screen */
+body {
+	background-color: #f6f6f6;
+}
+/* @media screen */
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
 	border: 1px solid #a2a9b1;
 	padding: 0.2em 0.4em;
 }
-
+/* @media screen */
 sup, sub {
 	line-height: 1;
 }
@@ -93,10 +105,16 @@ sup.reference {
 .mw-body-content sub, .mw-body-content sup, span.reference {
 	font-size: 80%;
 }
-
-
+/* @media screen */
+a {
+	text-decoration: none;
+	color: #0645ad;
+	background: none;
+}
+/* @media screen */
 .wikitable > tr > th, .wikitable > * > tr > th {
 	background-color: #eaecf0;
 	text-align: center;
 }
+
 
