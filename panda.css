@@ -51,10 +51,11 @@ padding: 15px;
 border-left: 15px solid pink;
 border-right: 15px solid pink;
 
-
-
 }
 
+p{
+background-color: green;
+}
 
 
 
