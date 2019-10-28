@@ -8,7 +8,9 @@ width:500px;
 
 
 h1 {
-color:blue;
+color:green;
+font-size: 40px;
+font-family: "Helvetica";
 }
 
 img {
