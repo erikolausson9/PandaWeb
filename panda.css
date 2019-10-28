@@ -12,6 +12,11 @@ padding:20px;
 }
 
 
+p {
+border-style: inset;
+border-width: 15px;
+border-color: #a7a7a7;
+}
 
 h1 {
 color:blue;
