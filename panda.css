@@ -10,7 +10,7 @@ p {
 }
 
 h1 {
-color:green;
+color:blue;
 }
 
 img {
@@ -19,12 +19,6 @@ border-radius: 50%;
 
 }
 
-P.blocktext {
-margin-left:auto;
-margin-right:auto;
-width:300px;
-
-}
 
 div {
 
@@ -32,5 +26,77 @@ margin-left:auto;
 margin-right:auto;
 width:500px;
 
+}
+
+
+
+table {
+	font-size: 100%;
+}
+
+.wikitable {
+	background-color: #f8f9fa;
+	color: #222;
+	margin: 1em 0;
+	border: 1px solid #a2a9b1;
+	border-collapse: collapse;
+}
+
+.mw-content-ltr {
+	direction: ltr;
+}
+
+.mw-body-content {
+	position: relative;
+	font-size: 0.87em;
+	line-height: 1.6;
+	z-index: 0;
+}
+
+.mw-body, .parsoid-body {
+	background-color: #ffffff;
+	color: #222222;
+	padding: 1em;
+	direction: ltr;
+}
+
+.mw-body, #mw-data-after-content {
+	margin-left: 10em;
+}
+
+.mw-body {
+	border: 1px solid #a7d7f9;
+	border-right-width: 0px;
+	margin-top: -1px;
+}
+
+
+
+
+
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+	border: 1px solid #a2a9b1;
+	padding: 0.2em 0.4em;
+}
+
+sup, sub {
+	line-height: 1;
+}
+sup.reference {
+	unicode-bidi: -moz-isolate;
+	unicode-bidi: -webkit-isolate;
+	unicode-bidi: isolate;
+	white-space: nowrap;
+	font-weight: normal;
+	font-style: normal;
+}
+.mw-body-content sub, .mw-body-content sup, span.reference {
+	font-size: 80%;
+}
+
+
+.wikitable > tr > th, .wikitable > * > tr > th {
+	background-color: #eaecf0;
+	text-align: center;
 }
 
