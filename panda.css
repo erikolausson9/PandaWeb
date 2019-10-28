@@ -11,6 +11,7 @@ background-color: #b7b703;
 
 
 h1 {
+background-color: #a000a00;
 color:darkgreen;
 font-size: 40px;
 font-family: "Helvetica";
@@ -29,13 +30,15 @@ border-radius: 50%;
 }
 
 
-div {
+#main {
 
 margin-left:auto;
 margin-right:auto;
 width:500px;
 background-color: white;
-padding: 15px;
+/* padding: 15px; */
+border-left: 15px solid pink;
+border-right: 15px solid pink;
 
 }
 
